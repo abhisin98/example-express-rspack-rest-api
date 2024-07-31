@@ -1,4 +1,4 @@
-const express = require('express');
+import express from "express";
 const router = express.Router();
 
 //---------------------------------------------------------------------------
@@ -27,4 +27,4 @@ router.get('/', (req, res) => {
 //   // delete a specific user by ID
 // });
 
-module.exports = router;
+export default router;
