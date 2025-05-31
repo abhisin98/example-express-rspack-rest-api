@@ -1,29 +1,30 @@
-# Express & Rspack API
+# Example Express Rspack REST API
 
 ## 📌 Overview
 
-This project is an API built using **Express.js** for handling HTTP requests and **Rspack** for efficient module bundling.
+This repository contains a REST API built using **Express.js** and **Rspack**, providing efficient and scalable backend services.
 
 ## 🚀 Features
 
-- RESTful API with Express.js
+- Fast and lightweight Express.js setup
 - Optimized bundling using Rspack
-- Environment variable management
+- Modular and scalable API structure
+- Environment configuration support
 - Error handling and logging
 - Middleware integration
-- Modular route handling
 
 ## 🔧 Installation
 
 To get started, clone the repository and install dependencies:
 
 ```sh
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/abhisin98/example-express-rspack-rest-api.git
+cd example-express-rspack-rest-api
 pnpm install
 ```
 
-⚙️ Configuration
+## ⚙️ Configuration
+
 Create a .env file in the root directory and specify your environment variables:
 
 ```sh
@@ -31,7 +32,8 @@ PORT=4000
 NODE_ENV=development
 ```
 
-▶️ Running the Server
+## ▶️ Running the Server
+
 Start the Express server:
 
 ```sh
@@ -44,14 +46,15 @@ For development mode:
 pnpm run dev
 ```
 
-📦 Rspack Integration
+## 📦 Rspack Integration
+
 Bundle the application using Rspack:
 
 ```sh
 pnpm run build
 ```
 
-📜 API Routes
+## 📜 API Routes
 
 GET /api/status
 Returns the API status.
@@ -63,7 +66,19 @@ Returns the API status.
 }
 ```
 
-🛠️ Development Setup
+## 📜 Example API Endpoints
+
+Below are the available endpoints in this API:
+
+| Method     | Endpoint                 | Description              |
+| ---------- | ------------------------ | ------------------------ |
+| **GET**    | `/api/v1/example`        | Fetch example data       |
+| **POST**   | `/api/v1/example/add`    | Create new example entry |
+| **PUT**    | `/api/v1/example/update` | Update example data      |
+| **DELETE** | `/api/v1/example/delete` | Remove example entry     |
+
+## 🛠️ Development Setup
+
 Run ESLint and Prettier:
 
 ```sh
@@ -78,12 +93,14 @@ Run unit tests:
 pnpm run test
 ```
 
-🤝 Contributing
-Feel free to open issues or submit pull requests! 🚀
+## 🤝 Contributing
 
-📃 License
+Contributions are welcome! Please fork the repository and submit a pull request. 🚀
+
+## 📃 License
+
 This project is licensed under the MIT License.
 
 ```sh
-Let me know if you'd like any modifications! 🚀
+Let me know if you need any modifications or extra sections! 🚀
 ```
