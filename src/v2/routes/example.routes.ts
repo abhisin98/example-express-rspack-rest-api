@@ -8,8 +8,8 @@ const router = Router();
 // TODO: move all controllers in the controllers folder
 router.get("/", GET);
 router.post("/add", POST);
-router.post("/update", PUT);
-router.post("/delete", DELETE);
+router.put("/update", PUT);
+router.delete("/delete", DELETE);
 
 // --------------------------------------------------------------------
 export { router as exampleRouter };
